@@ -30,16 +30,20 @@ const marioJump = (mario) => {
   card.classList.add("blockRumble");
   setTimeout(() => {
     viewInfo++;
-    changeCard();
     mario.classList.remove("jumpClass");
     card.classList.remove("blockRumble");
+    changeCard();
   }, 600);
 };
 
 button.addEventListener("click", () => marioJump(sprite));
 
-window.addEventListener("keydown", (e) => {
+window.addEventListener("keyup  ", (e) => {
   if (e.keyCode == 32) {
     marioJump(sprite);
   }
 });
+
+let shurr = 1;
+
+const perro = "Pimienta";

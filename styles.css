@@ -4,7 +4,8 @@
   font-family: sans-serif;
 }
 h4 {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
+  font-size: 18px;
 }
 .main-container {
   width: 100vw;
@@ -13,7 +14,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00baff;
+  background-color: #6b88fe;
+  background-image: url("./assets/img/bg.png");
 }
 
 .main-section {
@@ -27,6 +29,10 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 35px;
+  background-color: rgba(26, 36, 63, 0.195);
+  border-radius: 9px;
+  height: 320px;
+  padding: 25px;
 }
 
 .info-card {
@@ -37,7 +43,7 @@ h4 {
 }
 
 #jump-button {
-  background-color: rgb(225, 50, 50);
+  background-color: #dc3545;
   color: white;
   padding: 10px 20px;
   border-radius: 7px;
@@ -52,8 +58,8 @@ h4 {
 }
 
 .sprite-container {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background-image: url("./assets/sprites/1.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -76,7 +82,7 @@ h4 {
     background-image: url("./assets/sprites/2.png");
   }
   45% {
-    transform: translateY(-37px);
+    transform: translateY(-35.5px);
   }
   99% {
     background-image: url("./assets/sprites/2.png");
